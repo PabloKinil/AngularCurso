@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './core/navbar/navbar.component';
-import { FooterComponent } from './core/footer/footer.component';
-import { HomeComponent } from './modules/home/home.component';
-import { SearchComponent } from './modules/search/search.component';
+import { NavbarComponent } from './core/components/navbar/navbar.component';
+import { FooterComponent } from './core/components/footer/footer.component';
+// import { HomeComponent } from './modules/home/pages/home/home.component';
+// import { SearchComponent } from './modules/search/pages/search/search.component';
 import { BlackBackgroundDirective } from './shared/directives/black-background.directive';
 
 @NgModule({
@@ -14,8 +14,8 @@ import { BlackBackgroundDirective } from './shared/directives/black-background.d
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    HomeComponent,
-    SearchComponent,
+    // HomeComponent,
+    // SearchComponent,
     BlackBackgroundDirective
   ],
   imports: [
